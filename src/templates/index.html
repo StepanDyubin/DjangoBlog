@@ -1,0 +1,9 @@
+{% load staticfiles %}
+
+function displayTime() {
+	var elt = document.getElementById("clock");
+	var now = new Date();
+	elt.innerHTML = now.toLocaleTimeString();
+	// setTimeOut(displayTime, 1000);  //again in 1 sec
+}
+window.onload = displayTime;

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block head_title %}StepanDyubin{% endblock head_title %}
+
+{% block content %}
+<!-- {{ block.super }} vivod iz content v base.html  --> 
+<div class="col-sm-6 col-sm-offset-3">
+<h1>Hello</h1>
+<form method="GET" action="" class="row">
+  <div class="col-sm-6">
+	<div class="input-group">	
+		<input class="form-control" type="text" placeholder="Search post" name="q" value="{{ request.GET.q }}">
+		<span class="input-group-btn"><input class="btn btn-default" type="submit" value="Search"></span>
+	</div>
+  </div>
+</form>
+
+<div class="row">
+{% for obj in object_list %}
+<div class="col-sm-12">
+	<div class="thumbnail">
+	{% if obj.draft %}<span style="color:red;">DRAFT</span>{% endif %} {% if obj.publish > today %}<h5>Future post</h5>{% endif %}
+	{% if obj.image %}
+		<img src="{{ obj.image.url }}" alt="" class="img-responsive" />
+	{% endif %}
+		<div class="caption post-item">
+		<h3><a href='{{ obj.get_absolute_url }}'>{{obj.title}}</a><small>  {{obj.timestamp|timesince}} ago</small></h3>
+		{{ obj.get_markdown|truncatechars_html:50 }}
+		<p>{% if obj.user.get_full_name %}Author: {{ obj.user.get_full_name }} {% endif %}</p>
+		<p><a href='{{ obj.get_absolute_url }}' class="btn btn-primary" role="button">View</a></p>
+		</div>
+	</div>
+</div>
+<br><br>
+{% endfor %}
+</div>
+
+
+<div class="pagination">
+	<span class="step-links">
+		{% if object_list.has_previous %}
+    	<a href="?{{page_request_var}}={{ object_list.previous_page_number }}{% if request.GET.q %}&q={{ request.GET.q }} {% endif %}">Предыдущая</a>
+		{% endif %}
+
+		<span class="current">
+		{{ object_list.number }} из {{ object_list.paginator.num_pages }}.
+		</span>
+
+		{% if object_list.has_next %}
+   		<a href="?{{page_request_var}}={{ object_list.next_page_number }}{% if request.GET.q %}&q={{ request.GET.q }} {% endif %}">Следующая</a>
+		{% endif %}
+	</span>
+</div>
+</div> <!-- col -->
+{% endblock content %}
+

@@ -1,0 +1,663 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"content_type"
+			],
+			[
+				"comm",
+				"comments"
+			],
+			[
+				"content",
+				"ContentType"
+			],
+			[
+				"set",
+				"setTitle"
+			],
+			[
+				"title",
+				"titleInput"
+			],
+			[
+				"cont",
+				"contentInput"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"titl",
+				"titleInput"
+			],
+			[
+				"mark",
+				"mark_safe"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"mar",
+				"markedContent"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"q",
+				"queryset_list"
+			],
+			[
+				"quer",
+				"queryset_list"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"ti",
+				"timezone"
+			],
+			[
+				"Post",
+				"PostManager"
+			],
+			[
+				"qu",
+				"quote_plus"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"slug",
+				"slug"
+			],
+			[
+				"sl",
+				"slug"
+			],
+			[
+				"pre",
+				"pre_save_post_receiver"
+			],
+			[
+				"up",
+				"upload_location"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"ur",
+				"urlpatterns"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"c",
+				"conf"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"i",
+				"import"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"po",
+				"PostModelAdmin"
+			],
+			[
+				"A",
+				"auto_now_add"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/list/models.py",
+			"settings":
+			{
+				"buffer_size": 2308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/static/css/base.css",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/comments/models.py",
+			"settings":
+			{
+				"buffer_size": 823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/comments/admin.py",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/post_detail.html",
+			"settings":
+			{
+				"buffer_size": 906,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 2336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/list/views.py",
+			"settings":
+			{
+				"buffer_size": 3621,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/stepandyubin/listing",
+		"/home/stepandyubin/listing/src",
+		"/home/stepandyubin/listing/src/comments/migrations",
+		"/home/stepandyubin/listing/src/list/migrations",
+		"/home/stepandyubin/listing/src/list/templatetags",
+		"/home/stepandyubin/listing/src/static/js",
+		"/home/stepandyubin/listing/static_cdn",
+		"/home/stepandyubin/listing/static_cdn/css",
+		"/home/stepandyubin/listing/static_cdn/js"
+	],
+	"file_history":
+	[
+		"/home/stepandyubin/listing/src/listing/settings.py",
+		"/home/stepandyubin/listing/src/templates/post_form.html",
+		"/home/stepandyubin/listing/src/list/forms.py",
+		"/home/stepandyubin/listing/src/static/css/base.css",
+		"/home/stepandyubin/listing/src/templates/base.html",
+		"/home/stepandyubin/listing/src/templates/post_detail.html",
+		"/home/stepandyubin/listing/src/templates/post_list.html",
+		"/home/stepandyubin/listing/src/list/admin.py",
+		"/home/stepandyubin/listing/src/list/models.py",
+		"/home/stepandyubin/listing/src/list/views.py",
+		"/home/stepandyubin/listing/lib/python2.7/site-packages/django/utils/text.py",
+		"/home/stepandyubin/listing/src/list/templatetags/urlify.py",
+		"/home/stepandyubin/listing/src/list/templatetags/__init__.py",
+		"/home/stepandyubin/listing/static_cdn/css/1.css",
+		"/home/stepandyubin/listing/src/list/urls.py",
+		"/home/stepandyubin/listing/src/listing/urls.py",
+		"/home/stepandyubin/listing/src/static/js/bootstrap.min.js",
+		"/home/stepandyubin/listing/src/static/css/bootstrap-theme.min.css",
+		"/home/stepandyubin/listing/src/static/css/bootstrap.min.css",
+		"/home/stepandyubin/listing/src/templates/html_messages.html",
+		"/home/stepandyubin/listing/src/templates/index.html",
+		"/home/stepandyubin/listing/src/static/css/home.css",
+		"/media/stepandyubin/usb/Try Django 1.9 - 22 of 38 - Django Messages Framework.mp4",
+		"/home/stepandyubin/listing/src/templates/script/clock.js",
+		"/home/stepandyubin/listing/src/templates/css/clock.css",
+		"/home/stepandyubin/listing/static_cdn/css/home.css",
+		"/home/stepandyubin/listing/listing/list/views.py",
+		"/home/stepandyubin/listing/listing/listing/urls.py",
+		"/home/stepandyubin/listing/listing/list/urls.py",
+		"/home/stepandyubin/listing/listing/list/models.py",
+		"/home/stepandyubin/listing/listing/listing/settings.py",
+		"/home/stepandyubin/listing/listing/list/admin.py",
+		"/home/stepandyubin/Desktop/untitled.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"3",
+			"	",
+			"ul",
+			"lu",
+			"args=[str(s",
+			"clock",
+			"{\n",
+			"plugin"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/list/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/static/css/base.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/comments/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/comments/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/post_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/list/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2650,
+								2650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SublimeProj.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
